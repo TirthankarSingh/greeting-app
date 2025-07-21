@@ -1,2 +1,9 @@
-# greeting-app
-greeting-app - used for Jenkins activity
+# Greeting App
+
+A simple Python script that greets the user by name.
+
+## How to Run
+
+```bash
+python greet.py
+
