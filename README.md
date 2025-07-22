@@ -1,4 +1,4 @@
-# V1
+# V2
 # Greeting App
 
 A simple Python script that greets the user by name.
