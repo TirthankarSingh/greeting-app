@@ -1,7 +1,8 @@
-def say_hello(name):
-    return f"Hello, {name}!"
+import sys
 
-if __name__ == "__main__":
-    user = input("Enter your name: ")
-    print(say_hello(user))
+if len(sys.argv) != 2:
+    print("Usage: python greet.py <name>")
+    sys.exit(1)
 
+name = sys.argv[1]
+print(f"Hello, {name}!")
